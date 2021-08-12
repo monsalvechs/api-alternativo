@@ -1,0 +1,26 @@
+[
+    {
+        "idPedido": 210,
+        "cantidades": [],
+        "Variedades": [
+            "Salmon",
+            "California",
+            "Nigiri",
+            "Temaki",
+            "uramaki"
+        ],
+        "combos": [
+            "Pepsi",
+            "Pepsi y Helado",
+            "Helado",
+            "Sake"
+        ],
+        "Bebidas": [
+            "Pepsi",
+            "Cerveza",
+            "Jugo",
+            "Sake",
+            "Vino"
+        ]
+    }
+]

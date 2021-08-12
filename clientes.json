@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Walter Jonson",
+      "CI": 1234567,
+      "paymentMethod": "Tarjeta",
+      "Whatsapp": 123456789,
+      "address":"treinta bloque dos"
+    },
+    {
+      "name": "Nel Pascal",
+      "paymentMethod": "tarjeta",
+      "whatsapp": 987456321,
+      "address":"calle cuatro"
+    }
+  ]
