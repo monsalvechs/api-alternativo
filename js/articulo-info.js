@@ -1,0 +1,1 @@
+//js para la informacion que estara dentro de cada articulo

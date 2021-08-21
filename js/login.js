@@ -1,0 +1,1 @@
+// js para la pagina del log in y reigstro del sitio
