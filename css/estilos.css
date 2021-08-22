@@ -27,8 +27,8 @@ header{
     width: 100%;
     height: 600px;
     background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, hsla(210, 29%, 24%, 0.529), hsla(204, 8%, 76%, 0.515)), url(../imagenes/top-view-of-tasty-and-delicious-sushi-on-wooden-board.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, hsla(210, 29%, 24%, 0.529), hsla(204, 8%, 76%, 0.515)), url(../imagenes/top-view-of-tasty-and-delicious-sushi-on-wooden-board.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, hsla(210, 29%, 24%, 0.529), hsla(204, 8%, 76%, 0.515)), url(../imagenes/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(210, 29%, 24%, 0.529), hsla(204, 8%, 76%, 0.515)), url(../imagenes/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: cover;
 background-attachment: fixed;
 position: relative;
