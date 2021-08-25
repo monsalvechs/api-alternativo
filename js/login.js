@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (camposCompletos) {
 
-            getJSONData(CLIENTES_URL).then(function (resultado) {
+            getJSONData(USUARIOS_URL).then(function (resultado) {
                 if(resultado.status === "ok")
                 {
                     userArray = resultado.data;
