@@ -4,17 +4,13 @@
       "CI": 1234567,
       "paymentMethod": "Tarjeta",
       "Whatsapp": 123456789,
-      "address":"treinta bloque dos",
-      "email": "walterjonson@gmail.com",
-      "password":1111111111
+      "address":"treinta bloque dos"
     },
     {
       "name": "Nel Pascal",
+      "CI":1234566,
       "paymentMethod": "tarjeta",
       "whatsapp": 987456321,
-      "address":"calle cuatro",
-      "email": "nelpascal@gmail.com",
-      "password":1111111111
-
+      "address":"calle cuatro"
     }
   ]
