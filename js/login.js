@@ -16,7 +16,7 @@ function validateUser(array, userIn, passwordIn) {
 
 document.addEventListener("DOMContentLoaded", function () {
     
-    document.getElementById("sumitBtn").addEventListener("click", function () {
+    document.getElementById("submit").addEventListener("click", function () {
     
         let inputEmail = document.getElementById("inputEmail");
         let inputPassword = document.getElementById("inputPassword");
