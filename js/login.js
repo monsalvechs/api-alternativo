@@ -1,3 +1,19 @@
+
+var userArray = [];
+
+function validateUser(array, userIn, passwordIn) {
+    for(let i = 0; i < array.legth; i++) {
+        if (array[i].email == userIn && array[i].password == passwordIn){
+            return true;
+        }
+    }
+    return false;
+}
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
     
     document.getElementById("sumitBtn").addEventListener("click", function () {
