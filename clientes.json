@@ -5,14 +5,16 @@
       "paymentMethod": "Tarjeta",
       "Whatsapp": 123456789,
       "address":"treinta bloque dos",
-      "mail": "walterjonson@gmail.com"
+      "mail": "walterjonson@gmail.com",
+      "contraseña":1111111111
     },
     {
       "name": "Nel Pascal",
       "paymentMethod": "tarjeta",
       "whatsapp": 987456321,
       "address":"calle cuatro",
-      "mail": "nelpascal@gmail.com"
+      "mail": "nelpascal@gmail.com",
+      "contraseña":1111111111
 
     }
   ]
