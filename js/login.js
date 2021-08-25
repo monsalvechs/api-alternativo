@@ -1,19 +1,4 @@
 
-var userArray = [];
-
-function validateUser(array, userIn, passwordIn) {
-    for(let i = 0; i < array.legth; i++) {
-        if (array[i].email == userIn && array[i].password == passwordIn){
-            return true;
-        }
-    }
-    return false;
-}
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
     
     document.getElementById("submit").addEventListener("click", function () {
@@ -21,38 +6,23 @@ document.addEventListener("DOMContentLoaded", function () {
         let inputEmail = document.getElementById("inputEmail");
         let inputPassword = document.getElementById("inputPassword");
         let camposCompletos = true;
+        let mensaje = "";
 
         if (inputEmail.value === '') {
+            mensaje ="Email invalido \n";
             camposCompletos = false;
-            inputEmail.classList.add('invalid');
-        } else {
-            inputEmail.classList.remove("invalid");
         }
 
         if (inputPassword.value === '') {
-            inputPassword.classList.add('invalid');
+            mensaje +="Contraseña invalida \n";
             camposCompletos = false;
-        } else {
-            inputPassword.classList.remove('invalid');
         }
 
         if (camposCompletos) {
-
-            getJSONData(USUARIOS_URL).then(function (resultado) {
-                if(resultado.status === "ok")
-                {
-                    userArray = resultado.data;
-
-                    if(validateUser(userArray, inputEmail.value, inputPassword.value)){
-                        window.location = 'index.html';
-                    } else {
-                        alert("usuario o contraseña incorrecto");
-                    }
-                }
-            });
+            window.location = 'index.html'
         }
          else {
-            alert("Debes ingresar los datos");
+            alert(mensaje);
         }    
     });
 });
